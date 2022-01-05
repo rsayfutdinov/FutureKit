@@ -7,10 +7,10 @@ let package = Package(
       .iOS(.v10)
     ],
     products: [        
-        .library(name: "FutureKit", targets: ["FutureKit"]),
+        .library(name: "FutureKit", targets: ["FutureKit iOS"]),
     ],
     targets: [     
-        .target(name: "FutureKit", path: "FutureKit"),
+        .target(name: "FutureKit iOS", path: "FutureKit iOS"),
     ]
     dependencies: []
 )
